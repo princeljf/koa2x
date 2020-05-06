@@ -1,0 +1,24 @@
+{
+  "name": "koa2x",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --use_strict app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "princeljf",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/princeljf/koa2x.git"
+  },
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^8.0.8",
+    "mime": "^2.4.5",
+    "mz": "^2.7.0",
+    "nunjucks": "^3.2.1"
+  }
+}
