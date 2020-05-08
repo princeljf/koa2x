@@ -1,10 +1,11 @@
 const Koa = require('koa');
 const app = new Koa();
+console.log('process.env.NODE_ENV = ', process.env.NODE_ENV);
 const isProduction = process.env.NODE_ENV === 'production';
-console.log('isProduction = ', isProduction);
 const bodyParser = require('koa-bodyparser');
 const templating = require('./templating');
 const controller = require('./controller');
+
 
 //第一个middleware是记录URL以及页面执行时间：
 app.use(async (ctx, next) => {
