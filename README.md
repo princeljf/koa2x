@@ -15,7 +15,23 @@ mysql -u root -p mysql
 
 view-koa/
 |
++- config/
+|  |
+|  +- mysql
+|  |  
+|  |  +- config.js <-- 配置文件入口
+|  |  +- config-default.js <-- 默认配置文件
+|  |  +- config-test.js <-- 测试配置文件
+|  |
+|  +- mongod
+|
 +- controllers/ <-- Controller
+|
++- models/ <-- 存放所有Model
+|  |
+|  +- Pet.js <-- Pet
+|  |
+|  +- User.js <-- User
 |
 +- node_modules/ <-- npm安装的所有依赖包
 |
@@ -33,10 +49,20 @@ view-koa/
 |
 +- controller.js <-- 扫描注册Controller
 |
++- db.js <-- 如何定义Model
+|
++- init-db.js <-- 初始化数据库
+|
++- model.js <-- 如何导入Model
+|
++- MYSQL.md <-- 数据库说明文档
+|
 +- package.json <-- 项目描述文件
+|
++- README.md
 |
 +- static-files.json <-- 处理静态文件
 |
 +- templating.json <-- 给ctx加上render()来使用Nunjucks
 
- 
+
