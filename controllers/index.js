@@ -1,9 +1,14 @@
 // index:
 
 module.exports = {
-    'GET /': async (ctx, next) => {
-        ctx.render('index.html', {
+    'GET /module/demo.html': async (ctx, next) => {
+        ctx.render('module/demo.html', {
             title: 'Welcome'
         });
-    }
+    },
+    'GET /module/page.html': async (ctx, next) => {
+        ctx.render('module/page.html', {
+            title: 'Welcome'
+        });
+    },
 };
