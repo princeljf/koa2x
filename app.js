@@ -1,4 +1,4 @@
-const Koa = require('koa');
+﻿const Koa = require('koa');
 const app = new Koa();
 console.log('process.env.NODE_ENV = ', process.env.NODE_ENV);
 
@@ -9,6 +9,7 @@ const templating = require('./templating');
 const controller = require('./controller');
 
 app.use(KoaStatic('./cli3/dist'));
+app.use(KoaStatic('../DMK/vue2x/dist'));
 
 //第一个middleware是记录URL以及页面执行时间：
 app.use(async (ctx, next) => {
