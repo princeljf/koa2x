@@ -8,7 +8,8 @@ const bodyParser = require('koa-bodyparser');
 const templating = require('./templating');
 const controller = require('./controller');
 
-app.use(KoaStatic('./cli3/dist'));
+// app.use(KoaStatic('./cli3/dist'));
+app.use(KoaStatic('./www/jianchun'));
 
 //第一个middleware是记录URL以及页面执行时间：
 app.use(async (ctx, next) => {

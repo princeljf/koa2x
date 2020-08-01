@@ -1,0 +1,607 @@
+<html><!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--[if lt IE 9]>
+    <script src="/template/default/static/js/html5shiv.js"></script>
+    <![endif]-->
+    <script type='text/javascript'
+            src="template/default/static/js/jquery.min.js" tppabs="./template/default/static/js/jquery.min.js"></script>
+    <title>Dasheng Health Products Manufacturing </title>
+    <meta name="keywords" content="Dasheng Health Products Manufacturing "/>
+    <meta name="description" content="Dasheng Health Products Manufacturing "/>
+    
+    <link rel="stylesheet" href="template/default/static/css/font-awesome.css" tppabs="./template/default/static/css/font-awesome.css"/>
+    <link rel='stylesheet' id='metaslider-flex-slider-css' href="template/default/static/css/flexslider.css" tppabs="./template/default/static/css/flexslider.css" type='text/css' media='all'
+          property='stylesheet'/>
+    <link rel='stylesheet' id='metaslider-public-css' href="template/default/static/css/public.css" tppabs="./template/default/static/css/public.css" type='text/css' media='all'
+          property='stylesheet'/>
+    <link rel='stylesheet' id='gforms_reset_css-css' href="template/default/static/css/formreset.min.css" tppabs="./template/default/static/css/formreset.min.css" type='text/css' media='all'/>
+    <link rel='stylesheet' id='gforms_formsmain_css-css' href="template/default/static/css/formsmain.min.css" tppabs="./template/default/static/css/formsmain.min.css" type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='gforms_ready_class_css-css' href="template/default/static/css/readyclass.min.css" tppabs="./template/default/static/css/readyclass.min.css" type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='gforms_browsers_css-css' href="template/default/static/css/browsers.min.css" tppabs="./template/default/static/css/browsers.min.css" type='text/css'
+          media='all'/>
+    <script type='text/javascript' src="template/default/static/js/moxie.min.js" tppabs="./template/default/static/js/moxie.min.js"></script>
+    <script type='text/javascript' src="template/default/static/js/plupload.min.js" tppabs="./template/default/static/js/plupload.min.js"></script>
+    <script type='text/javascript' src="template/default/static/js/iframeresizersmart.js" tppabs="./template/default/static/js/iframeresizersmart.js"></script>
+    <script type='text/javascript' src="template/default/static/js/skip-link-focus-fix.js" tppabs="./template/default/static/js/skip-link-focus-fix.js"></script>
+    <script type='text/javascript' src="template/default/static/js/scripts.js" tppabs="./template/default/static/js/scripts.js"></script>
+    <script type='text/javascript' src="template/default/static/js/josandi-script.js" tppabs="./template/default/static/js/josandi-script.js"></script>
+    <script type='text/javascript' src="template/default/static/js/moxie.min.js" tppabs="./template/default/static/js/moxie.min.js"></script>
+    <script type='text/javascript' src="template/default/static/js/plupload.min.js" tppabs="./template/default/static/js/plupload.min.js"></script>
+    <script type='text/javascript' src="template/default/static/js/iframeresizersmart.js" tppabs="./template/default/static/js/iframeresizersmart.js"></script>
+    <script type='text/javascript' src="template/default/static/js/josandi-script.js" tppabs="./template/default/static/js/josandi-script.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('.flexslider').flexslider({
+                animation: 'slide',                 // 必备参数，自动滑动
+                slideshowSpeed: 4000,              // 每次自动滑动间隔时间，默认为 7000，单位为 ms
+                animationSpeed: 1000,              // 手动点击滑动时间，默认为 600，单位为 ms
+                slideshow: true,                //载入页面时，是否自动播放
+                directionNav: true             //是否显示左右控制按钮
+            })
+        });
+    </script>
+    <link rel='stylesheet' id='pt-cv-public-style-css' href="template/default/static/css/cv.css" tppabs="./template/default/static/css/cv.css" type='text/css' media='all'/>
+    <link rel='stylesheet' id='pt-cv-public-pro-style-css' href="template/default/static/css/cvpro.min.css" tppabs="./template/default/static/css/cvpro.min.css" type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='tooltipster.bundle.min-css' href="template/default/static/css/tooltipster.bundle.min.css" tppabs="./template/default/static/css/tooltipster.bundle.min.css" type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='frontend-forms-css' href="template/default/static/css/frontend-forms.css" tppabs="./template/default/static/css/frontend-forms.css" type='text/css' media='all'/>
+    <link rel='stylesheet' id='job_bm_style-css' href="template/default/static/css/style.css" tppabs="./template/default/static/css/style.css" type='text/css' media='all'/>
+    <link rel='stylesheet' id='job-bm-dashboard-css' href="template/default/static/css/job-bm-dashboard.css" tppabs="./template/default/static/css/job-bm-dashboard.css" type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='job_bm_job_single-css' href="template/default/static/css/job-single.css" tppabs="./template/default/static/css/job-single.css" type='text/css' media='all'/>
+    <link rel='stylesheet' id='job_bm_job_list-css' href="template/default/static/css/job-list.css" tppabs="./template/default/static/css/job-list.css" type='text/css' media='all'/>
+    <link rel='stylesheet' id='font-awesome.min-css' href="template/default/static/css/font-awesome.min.css" tppabs="./template/default/static/css/font-awesome.min.css" type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='jquery-ui-css' href="template/default/static/css/jquery-ui.css" tppabs="./template/default/static/css/jquery-ui.css" type='text/css' media='all'/>
+    <link rel='stylesheet' id='job-submit-css' href="template/default/static/css/job-submit.css" tppabs="./template/default/static/css/job-submit.css" type='text/css' media='all'/>
+    <link rel='stylesheet' id='pickform-css' href="template/default/static/css/pickform.css" tppabs="./template/default/static/css/pickform.css" type='text/css' media='all'/>
+    <link rel='stylesheet' id='learndash_quiz_front_css-css' href="template/default/static/css/learndash_quiz_front.css" tppabs="./template/default/static/css/learndash_quiz_front.css" type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='sfwd_front_css-css' href="template/default/static/css/front.min.css" tppabs="./template/default/static/css/front.min.css" type='text/css' media='all'/>
+    <link rel='stylesheet' id='jquery-dropdown-css-css' href="template/default/static/css/jquery.dropdown.min.css" tppabs="./template/default/static/css/jquery.dropdown.min.css" type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='learndash_pager_css-css' href="template/default/static/css/learndash_pager.css" tppabs="./template/default/static/css/learndash_pager.css" type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='learndash_template_style_css-css' href="template/default/static/css/learndash_template_style.css" tppabs="./template/default/static/css/learndash_template_style.css"
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='woocommerce-layout-css' href="template/default/static/css/woocommerce-layout.css" tppabs="./template/default/static/css/woocommerce-layout.css" type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='woocommerce-smallscreen-css' href="template/default/static/css/woocommerce-smallscreen.css" tppabs="./template/default/static/css/woocommerce-smallscreen.css"
+          type='text/css' media='only screen and (max-width: 768px)'/>
+    <link rel='stylesheet' id='woocommerce-general-css' href="template/default/static/css/woocommerce.css" tppabs="./template/default/static/css/woocommerce.css" type='text/css' media='all'/>
+    <style id='woocommerce-inline-inline-css' type='text/css'>
+        .woocommerce form .form-row .required {
+            visibility: visible;
+        }
+    </style>
+    <link rel='stylesheet' id='wpsl-styles-css' href="template/default/static/css/styles.min.css" tppabs="./template/default/static/css/styles.min.css" type='text/css' media='all'/>
+    <link rel='stylesheet' id='ld-content-cloner-css' href="template/default/static/css/ld-content-cloner-public.css" tppabs="./template/default/static/css/ld-content-cloner-public.css" type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='lightbox-style-css' href="template/default/static/css/jquery.fancybox.min.css" tppabs="./template/default/static/css/jquery.fancybox.min.css" type='text/css'
+          media='all'/>
+    <link rel='stylesheet' id='custom-style-css' href="template/default/static/css/custom-22.css" tppabs="./template/default/static/css/custom-22.css" type='text/css' media='all'/>
+    <link rel="stylesheet" href="template/default/static/css/style.min_1.css" tppabs="./template/default/static/css/style.min_1.css"/>
+    <noscript>
+        <style>.woocommerce-product-gallery {
+            opacity: 1 !important;
+        }</style>
+    </noscript>
+    <style type="text/css" id="wp-custom-css">
+        .home_title .heading_area {
+            padding: 1.875rem 0 0.125rem;
+        }
+
+        .home_text_bottom {
+            padding-top: 1.5625rem !important;
+        }
+
+        .home_slider .slider_area .flexslider a {
+            color: #fff;
+        }
+
+        .home-contact-form .gform_wrapper textarea.medium {
+            height: 348px;
+        }
+
+        .top-catalog-button {
+            display: none;
+        }
+
+        .catalog-button a {
+            color: #f7f7f7 !important;
+            font-weight: 400;
+        }
+
+        .top-catalog-button a {
+            color: #f7f7f7 !important;
+            font-weight: 400;
+        }
+
+        .catalog-button {
+            padding: 13px 71px !important;
+            border: 0;
+            background: #5979b1;
+            color: #fff;
+            margin-left: 14%;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        @media only screen and (max-width: 1140px) {
+            .catalog-button {
+                padding: 13px 40px !important;
+            }
+        }
+
+        @media only screen and (max-width: 1024px) {
+            .site-branding .site-title {
+                width: 35% !important;
+                text-align: right !important;
+
+            }
+
+            .catalog-button {
+                margin-left: 0% !important;
+                padding: 13px 71px !important;
+
+            }
+        }
+
+        @media only screen and (max-width: 652px) {
+            .catalog-button {
+                display: none;
+            }
+
+            .top-catalog-button {
+                display: block;
+                text-align: center;
+                border: 0;
+                background: #5979b1;
+                color: #fff;
+                text-transform: uppercase;
+                font-size: .875rem;
+                padding-bottom: 5px;
+                font-family: Hind, sans-serif;
+            }
+
+            .site-branding .site-title {
+                width: 100% !important;
+                text-align: center !important;
+            }
+        }        </style>
+
+    
+</head>
+<!-- <body oncontextmenu='return false' ondragstart='return false' onselectstart ='return false' onselect='document.selection.empty()' oncopy='document.selection.empty()' onbeforecopy='return false' onmouseup='document.selection.empty()'> -->
+<body class="home page-template page-template-page-front-page page-template-page-front-page-php page page-id-26 woocommerce-no-js page-home"
+      style="display: none;">
+
+<div id="page" class="site">
+    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+    <header id="masthead" class="site-header" role="banner">
+        <div class="top-bar">
+            <div class="fixedwidth fixedwidthes">
+                <ul>
+                    <li><span>Tell:</span>
+                        <a  href="javascript:;"> 86+21-57783126 </a>
+
+                    <li><span>Fax:</span>
+
+                        <p><a href="javascript:;">86+21-57784148</a>
+                        </p>
+                    </li>
+                    <li><span>Address:</span>
+
+                        <p><a  href="javascript:;">228 Shihui Road, Songjiang, Shanghai 201613, China</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="fixedwidth">
+            <div class="site-branding site-brandinges">
+                <div class="site-title">
+                    <a href="index.htm" tppabs="./" rel="home">
+                        <img src="uploads/picture/20191023/0507eb2d54150ec5a88cf90528d0c89b.png" tppabs="./uploads/picture/20191023/0507eb2d54150ec5a88cf90528d0c89b.png" alt="Moldex">
+                    </a>
+                </div>
+                <div class="my-radio">
+                    
+                    <a href="/" tppabs="./About-US/id/156.html">About Us</a>
+                    
+                    <a href="/" tppabs="./Download/id/157.html">Download</a>
+                    
+                    <a href="/" tppabs="./Contact-US/id/158.html">Contact Us</a>
+                                        <a class="cur" href="/">EN </a>
+                    <a href="/">CN</a>
+                </div>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation </span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div><!-- .site-branding -->
+        </div><!-- .site-branding -->
+    </header><!-- #masthead -->
+    <div class="main-menu fixedwidth">
+        <div class="navbar navbar-default">
+            <!-- The WordPress Menu goes here -->
+            <div class="collapse navbar-collapse">
+                <ul id="header-menu" class="nav navbar-nav nav-header">
+                                        <li id="menu-item-2"
+                        class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-2 dropdown">
+                        <a title="Respiratory" href="/" tppabs="./Product-Center/id/2.html" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">CE <span class="caret"></span>                        </a>
+                                                <ul role="menu" class="dropdown-menu">
+                                                        <li id="menu-item-21"
+                                class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-21"><a
+                                    href="/" tppabs="./Product-Center/id/21.html">FFP1 NR</a></li>
+                                                        <li id="menu-item-22"
+                                class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-22"><a
+                                    href="/" tppabs="./Product-Center/id/22.html">FFP2 NR</a></li>
+                                                        <li id="menu-item-23"
+                                class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-23"><a
+                                    href="/" tppabs="./Product-Center/id/23.html">FFP3 NR</a></li>
+                                                    </ul>
+                                            </li>
+                                        <li id="menu-item-1"
+                        class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-1 dropdown">
+                        <a title="Respiratory" href="/" tppabs="./Product-Center/id/1.html" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">NIOSH <span class="caret"></span>                        </a>
+                                                <ul role="menu" class="dropdown-menu">
+                                                        <li id="menu-item-12"
+                                class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-12"><a
+                                    href="/" tppabs="./Product-Center/id/12.html">N95</a></li>
+                                                        <li id="menu-item-14"
+                                class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-14"><a
+                                    href="/" tppabs="./Product-Center/id/14.html">N99</a></li>
+                                                        <li id="menu-item-15"
+                                class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-15"><a
+                                    href="/" tppabs="./Product-Center/id/15.html">FDA</a></li>
+                                                    </ul>
+                                            </li>
+                                        <li id="menu-item-3"
+                        class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-3 dropdown">
+                        <a title="Respiratory" href="/" tppabs="./Product-Center/id/3.html" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">AS/NZS <span class="caret"></span>                        </a>
+                                                <ul role="menu" class="dropdown-menu">
+                                                        <li id="menu-item-24"
+                                class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-24"><a
+                                    href="/" tppabs="./Product-Center/id/24.html">P1</a></li>
+                                                        <li id="menu-item-25"
+                                class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-25"><a
+                                    href="/" tppabs="./Product-Center/id/25.html">P2</a></li>
+                                                    </ul>
+                                            </li>
+                                        <li id="menu-item-4"
+                        class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-4 dropdown">
+                        <a title="Respiratory" href="/" tppabs="./Product-Center/id/4.html" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">CHINA GB                        </a>
+                                            </li>
+                                        <li id="menu-item-5"
+                        class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-5 dropdown">
+                        <a title="Respiratory" href="/" tppabs="./Product-Center/id/5.html" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">MEDICAL/DUST                        </a>
+                                            </li>
+                                        <li id="menu-item-6"
+                        class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-6 dropdown">
+                        <a title="Respiratory" href="/" tppabs="./Product-Center/id/6.html" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">OTHER <span class="caret"></span>                        </a>
+                                                <ul role="menu" class="dropdown-menu">
+                                                        <li id="menu-item-26"
+                                class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-26"><a
+                                    href="/" tppabs="./Product-Center/id/26.html">JAPAN</a></li>
+                                                        <li id="menu-item-27"
+                                class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-27"><a
+                                    href="/" tppabs="./Product-Center/id/27.html">KOREA</a></li>
+                                                    </ul>
+                                            </li>
+                                        <li id="menu-item-7"
+                        class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-has-children menu-item-7 dropdown">
+                        <a title="Respiratory" href="/" tppabs="./Product-Center/id/7.html" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">GOGGLE                        </a>
+                                            </li>
+                    
+                </ul>
+            </div>
+        </div><!-- .navbar -->
+    </div>
+
+<main id="content" role="main" class="site-content site-contents">
+    <div id="site-container">
+        <!-- Banner -->
+        <section class="banner">
+            <div style="width: 100%;" class="ml-slider-3-8-1 metaslider metaslider-flex metaslider-304 ml-slider">
+
+                <div id="metaslider_container_304">
+                    <div id="metaslider_304" class="flexslider">
+                        <ul class="slides">
+                                                        <li style="display: block; width: 100%;" class="slide-14978 ms-image">
+                                <a href="javascript:void(0)" tppabs="/About-US/id/178.html"><img
+                                    src="uploads/picture/20200511/23e696e48d7a7bd0851da32555bff3f8.jpg" tppabs="./uploads/picture/20200511/23e696e48d7a7bd0851da32555bff3f8.jpg" height="454" width="0" alt=""
+                                    class="slider-304 slide-14978" title="Wildfire page"/>
+                                </a>>
+                            </li>
+                                                    </ul>
+                    </div>
+
+                </div>
+            </div>        <!--<div class="slide">
+            <img src="" alt="">
+            <div class="banner-text-section">
+                <div class="fixedwidth">
+                    <div class="banner-text">
+                        <h1></h1>
+                        <h2></h2>
+                        <a href="/"></a>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+        </section>
+        <!-- Banner -->
+        <!-- Welcome Text -->
+        <section class="home_text">
+            <div class="fixedwidth home_title">
+                <div class="heading_area heading_areas">
+                    <h1>DASHENG MASKS SERIES</h1>
+
+                    <div class="heading-line"></div>
+                </div>
+                <article>
+                       <p style="text-align: center;">The company passed the ISO9001 international quality management system certification. Dasheng masks dozens of models for the European standard EN149 and get FFP1, FFP2 and FFP3 quality level certification respectively; dozens of models for AS / NZS 1716 Standards&nbsp; Australia and the United States NEISON, NIOSH N95, N99 standard international certification.Double victory license mesh valve masks and face cloth masks and other national PatentOffice.</p>                </article>
+            </div>
+        </section>
+        <!-- Welcome Text -->
+
+        <section class="home_cat_prod home_cat_prods">
+
+            <div class="container">
+                <div class="fixedwidth">
+                    <div class="grid_area grid grid_areas">
+                                                <div class="grid__item desk--one-quarter lap--one-half">
+                            <figure>
+                                <a href="/" tppabs="./index/index/seriesproductlist/id/15.html"><img
+                                        src="uploads/picture/20191102/3be14f1149ae92589dedec6f67231415.jpg" tppabs="./uploads/picture/20191102/3be14f1149ae92589dedec6f67231415.jpg"
+                                        alt=""></a>
+                            </figure>
+                            <div class="grid_meta">
+                                <h2>
+                                    <a href="/">CE Standard Masks</a>
+                                </h2>
+                            </div>
+                        </div>
+                                                <div class="grid__item desk--one-quarter lap--one-half">
+                            <figure>
+                                <a href="/" tppabs="./index/index/seriesproductlist/id/16.html"><img
+                                        src="uploads/picture/20191102/8789386ce81ea41cc535e4aa29aaec7d.jpg" tppabs="./uploads/picture/20191102/8789386ce81ea41cc535e4aa29aaec7d.jpg"
+                                        alt=""></a>
+                            </figure>
+                            <div class="grid_meta">
+                                <h2>
+                                    <a href="/">NIOSH Standard Masks</a>
+                                </h2>
+                            </div>
+                        </div>
+                                                <div class="grid__item desk--one-quarter lap--one-half">
+                            <figure>
+                                <a href="/" tppabs="./index/index/seriesproductlist/id/17.html"><img
+                                        src="uploads/picture/20191102/89d3cb2d8ba8c728d71e7a4fd0bd49b8.jpg" tppabs="./uploads/picture/20191102/89d3cb2d8ba8c728d71e7a4fd0bd49b8.jpg"
+                                        alt=""></a>
+                            </figure>
+                            <div class="grid_meta">
+                                <h2>
+                                    <a href="/">AS/NZS Standard Masks</a>
+                                </h2>
+                            </div>
+                        </div>
+                                                <div class="grid__item desk--one-quarter lap--one-half">
+                            <figure>
+                                <a href="/" tppabs="./index/index/seriesproductlist/id/18.html"><img
+                                        src="uploads/picture/20200517/a16653146e802779d64458351c8b7b05.jpg" tppabs="./uploads/picture/20200517/a16653146e802779d64458351c8b7b05.jpg"
+                                        alt=""></a>
+                            </figure>
+                            <div class="grid_meta">
+                                <h2>
+                                    <a href="/">KN95 Particulate Respirators</a>
+                                </h2>
+                            </div>
+                        </div>
+                                                <div class="grid__item desk--one-quarter lap--one-half">
+                            <figure>
+                                <a href="/" tppabs="./index/index/seriesproductlist/id/19.html"><img
+                                        src="uploads/picture/20191030/1bd35be8eb534e663b2be09782b71718.jpg" tppabs="./uploads/picture/20191030/1bd35be8eb534e663b2be09782b71718.jpg"
+                                        alt=""></a>
+                            </figure>
+                            <div class="grid_meta">
+                                <h2>
+                                    <a href="/">MEDICAL/DUST Standard Masks</a>
+                                </h2>
+                            </div>
+                        </div>
+                                                <div class="grid__item desk--one-quarter lap--one-half">
+                            <figure>
+                                <a href="/" tppabs="./index/index/seriesproductlist/id/20.html"><img
+                                        src="uploads/picture/20191030/5bff4b2c36aa5cb817edecc81fc032b1.jpg" tppabs="./uploads/picture/20191030/5bff4b2c36aa5cb817edecc81fc032b1.jpg"
+                                        alt=""></a>
+                            </figure>
+                            <div class="grid_meta">
+                                <h2>
+                                    <a href="/">GOGGLE</a>
+                                </h2>
+                            </div>
+                        </div>
+                                            </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Slider -->
+        <section class="slider_box">
+            <div class="fixedwidth clearfix">
+                <div class="slider_left">
+                    <div class="flexslider">
+                        <ul class="slides">
+                                                        <li><img src="uploads/picture/20191102/73382484c7f713b28840aba980ca6b39.jpg" tppabs="./uploads/picture/20191102/73382484c7f713b28840aba980ca6b39.jpg"/></li>
+                                                <li><img src="uploads/picture/20191102/629ca006cb033e5c7d0c97698404b373.jpg" tppabs="./uploads/picture/20191102/629ca006cb033e5c7d0c97698404b373.jpg"/></li>
+                                                <li><img src="uploads/picture/20191102/95e4461b826c067e253a8ad63354af8f.jpg" tppabs="./uploads/picture/20191102/95e4461b826c067e253a8ad63354af8f.jpg"/></li>
+                                                <li><img src="uploads/picture/20191102/8136f2a382e4a0c7bafa7e15b9368504.jpg" tppabs="./uploads/picture/20191102/8136f2a382e4a0c7bafa7e15b9368504.jpg"/></li>
+                                            </ul>
+                    </div>
+                </div>
+                <div class="slider_right">
+                    <h2 class="slider_title">GOGGLES</h2>
+                   <p>The goggles consist of spectacles frame and lens.The spectacles frame is made from free bending PVC material. The lens is made from specific PC particle,flat and transparent. It has the functions of anti-bending,anti-bursting and anti-lashing.</p><p>It can efficiently prevent from the lashing of middle-energy particle and the splashing of liquid or metal melt.</p><p>The anti-fog goggles also has the function of anti-fog.</p><p>he product has obtained the european EN-166 CE Standards</p>                    <div class="slider_but">
+                                                <a href="/" tppabs="./index/index/details/id/43.html">8810</a>
+                                                <a href="/" tppabs="./index/index/details/id/44.html">8870 B</a>
+                                            </div>
+                </div>
+            </div>
+        </section>
+        <!-- slider -->
+
+        <script>
+            $().ready(function () {
+                $(".box-nav a").click(function () {
+                    $(".box-nav a").eq($(this).index()).addClass("cur").siblings().removeClass('cur');
+                    $(".box-info .boxinfo-item").hide().eq($(this).index()).show();
+                });
+            })
+
+        </script>
+
+
+        <!--<section>
+            <div class="">
+                    </div>
+        </section>-->
+    </div><!-- #site-container-->
+</main><!-- #content -->
+
+<!--modal-->
+<div class="imgscale1" style="position: fixed; top: 30%;z-index: 999999; left: 50%; margin-left: -278px;"><img src="template/default/static/images/showimg.png" tppabs="./template/default/static/images/showimg.png"/></div>
+<!--</div>-->
+
+<footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="footer-inner fixedwidth grid footermegamenu">
+        <div class="footer-area">
+            <div class="grid__item desk--one-quarter footer_items lap--one-half">
+                <div class="footer-logo">
+                    <a href="index.htm" tppabs="./" rel="home">
+                        <img class="unveil"
+                             data-src="uploads/picture/20191023/6138d76af2afb22bc91f5588e73b5d92.png" tppabs="./uploads/picture/20191023/6138d76af2afb22bc91f5588e73b5d92.png"
+                             alt="">
+                    </a>
+
+                    <p>Dasheng is the common name of the company and product brands, Chinese mask manufacturer.</p>
+
+                    <p>Add：228 Shihui Road, Songjiang, Shanghai 201613, China                        Tel：86+21-57783126</p>
+
+
+                </div>
+            </div>
+            <div class="grid__item desk--one-quarter footer_item lap--one-half">
+                <h2>About DaSheng</h2>
+
+                <div class="menu-categories-container">
+                    <ul id="footer-menu2" class="nav navbar-nav nav-footer">
+
+                        <li id="menu-item-55"
+                            class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-55"><a
+                                href="/" tppabs="./About-US/id/174.html">DaSheng introduce</a></li>
+                        <li id="menu-item-3825"
+                            class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3825"><a
+                                href="/" tppabs="./About-US/id/175.html">Enterprise Culture</a></li>
+                        <li id="menu-item-3826"
+                            class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-3826"><a
+                                href="/" tppabs="./About-US/id/176.html">Memorabilia</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="grid__item desk--one-quarter footer_item lap--one-half">
+                <h2>Product center</h2>
+
+                <div class="menu-references-container">
+                    <ul id="footer-menu3" class="nav navbar-nav nav-footer">
+                                                <li id="menu-item-389"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-389"><a
+                                href="/" tppabs="./Product-Center/id/2.html">CE</a></li>
+                                                <li id="menu-item-389"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-389"><a
+                                href="/" tppabs="./Product-Center/id/1.html">NIOSH</a></li>
+                                                <li id="menu-item-389"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-389"><a
+                                href="/" tppabs="./Product-Center/id/3.html">AS/NZS</a></li>
+                                                <li id="menu-item-389"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-389"><a
+                                href="/" tppabs="./Product-Center/id/4.html">CHINA GB</a></li>
+                                                <li id="menu-item-389"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-389"><a
+                                href="/" tppabs="./Product-Center/id/5.html">MEDICAL/DUST</a></li>
+                                                <li id="menu-item-389"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-389"><a
+                                href="/" tppabs="./Product-Center/id/6.html">OTHER</a></li>
+                                                <li id="menu-item-389"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-389"><a
+                                href="/" tppabs="./Product-Center/id/7.html">GOGGLE</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="grid__item desk--one-quarter footer_item lap--one-half">
+                <h2>Download</h2>
+                <div class="menu-references-container">
+                    <ul class="nav navbar-nav nav-footer">
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-387"><a
+                                href="/" tppabs="./Download/id/157.html">Dasheng Mask Catalog</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-387"><a
+                                href="/" tppabs="./Download/id/157.html">EU Declaration of Conformity</a></li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-387"><a
+                                href="/" tppabs="./Download/id/157.html">EU Declaration of Conformity</a></li>
+                                            </ul>
+                </div>
+            </div>
+            <div class="grid__item desk--one-quarter footer_item lap--one-half">
+                <h2>Contact Us</h2>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="site-info-bg">
+        <div class="site-info fixedwidth">
+            <div class="copyright">
+                Copyright © Shanghai Dasheng Health Products Manufacturing Co., Ltd All Right |   
+                <a target="_blank" href="http://beian.miit.gov.cn/" tppabs="http://beian.miit.gov.cn/">沪ICP备05037601号</a>
+                <div style="vertical-align: middle;display:inline-block">
+                    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011702007288" tppabs="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011702007288"  style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src=""   style="float:left;"/>
+                        <p style="float:left;height:20px;line-height:20px;margin: 3px 0px 0px 5px; color:#ffffff;font-size: .9375rem">沪公网安备31011702007288号</p></a>
+                </div>
+            </div>
+        </div><!-- .site-info -->
+    </div>
+</footer><!-- #colophon -->
+<a href="#top" class="scrolltop scrollto">Scroll to top</a>
+</div>
+
+
+<script>
+    $().ready(function () {
+
+            $('.imgscale1').show()
+
+           $('.imgscale1').click(function () {
+            $('.imgscale1').hide()
+        })
+
+    })
+</script>
+
+</body>
+</html>

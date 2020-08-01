@@ -1,5 +1,8 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/test');
+mongoose.connect('mongodb://localhost/test', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+});
 const Count = require('./models/mongodb/Count')
 const verificationCount = new Count({
   pageName: 'page-verification',
@@ -37,7 +40,7 @@ db.once('open', function() {
   // 模型models.updateOne()更新数据
   // Count.updateOne(  
   //   {pageName: 'page-verification'}, //条件
-  //   {count: '456'},     //要更新的内容
+  //   {count: 456},     //要更新的内容
   //   /*回调函数*/
   //   function(err, verification){
   //     if (err) return console.error(err);
